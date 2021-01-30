@@ -1,0 +1,30 @@
+.wrapper{
+    width: 900px;
+    height: 410px;
+    background-color: aqua;
+    display: flex;
+    margin-top: 100px;
+}
+.flex{
+    display: inline-flex;
+}
+.speed{
+    margin-left: 15px;
+    margin-top: 20px;
+    width: 100px;
+    height: 350px;
+    background-color: rgb(249, 252, 251);
+    border: 1px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+   
+}
+.speed_bar{
+    background-image: linear-gradient(rgb(25, 122, 167), rgb(42, 214, 8)) ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
